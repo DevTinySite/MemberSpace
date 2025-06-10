@@ -142,4 +142,4 @@ If omitted or invalid, the server will respond with `401 Unauthorized`.
 
 ## 📞 Support
 
-For assistance or integration help, contact: **support@pop.site**
+For assistance or integration help, contact: **daniel@pop.site**
