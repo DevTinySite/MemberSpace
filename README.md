@@ -1,7 +1,6 @@
-# 📘 Pop.site API Documentation – Enterprise Integration
+# 📘 Pop.site API Documentation – MemberSpace Integration
 
-**Production Base URL:** `https://api.pop.site`  
-**Testing Base URL:** `https://test-api.pop.site`  
+** Base URL:** `https://api.pop.site`  
 
 > All requests must be authenticated using a Bearer Token, which will be provided by the Pop.site team.
 
