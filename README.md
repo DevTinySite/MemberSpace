@@ -94,11 +94,12 @@ Creates a new Firebase Auth user (if necessary) and deploys a website with the p
 ```
 {
   "success": true,
-  "message": "Website created successfully",
+  "userId": "UqQ23voRS9PJDTstehv9xYbHQlX2",
   "username": "testing123",
-  "email": "user@example.com"
+  "siteUrl": "https://0000.pop.site"
 }
 ```
+(IMPORTANT! ❌, your siteUrl will be something like "https://dev.0000.pop.site" for test environment.)
 
 #### ❌ 400 Bad Request
 
