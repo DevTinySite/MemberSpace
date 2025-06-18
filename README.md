@@ -1,5 +1,6 @@
 # 📘 Pop.site API Documentation – MemberSpace Integration
 
+** Test URL:** `https://dev-api.pop.site` 
 ** Base URL:** `https://api.pop.site`  
 
 > All requests must be authenticated using a Bearer Token, which will be provided by the Pop.site team.
