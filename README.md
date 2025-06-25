@@ -77,8 +77,9 @@ Creates a new Firebase Auth user (if necessary) and deploys a website with the p
 
 | Field     | Type   | Required | Description                                                       |
 |-----------|--------|----------|-------------------------------------------------------------------|
-| username  | string | Yes      | Must be valid per validation rules used in `/validate-username`. |
+| username  | string | Yes      | Must be valid per validation rules used in `/validate-username`.  |
 | email     | string | Yes      | Valid email of the user to associate with the website.            |
+| cdn_domain| string | No       | Cdn domain to use in the script.                                  |
 
 ### Headers
 
