@@ -71,7 +71,8 @@ Creates a new Firebase Auth user (if necessary) and deploys a website with the p
 ```json
 {
   "username": "testing123",
-  "email": "user@example.com"
+  "email": "user@example.com",
+  "cdn_name": "cdn.memberspace.com"
 }
 ```
 
