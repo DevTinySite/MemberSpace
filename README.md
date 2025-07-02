@@ -72,6 +72,7 @@ Creates a new Firebase Auth user (if necessary) and deploys a website with the p
 {
   "username": "testing123",
   "email": "user@example.com",
+  "business_name": "Awesome Business Name",
   "cdn_domain": "cdn.memberspace.com"
 }
 ```
@@ -80,6 +81,7 @@ Creates a new Firebase Auth user (if necessary) and deploys a website with the p
 |-----------|--------|----------|-------------------------------------------------------------------|
 | username  | string | Yes      | Must be valid per validation rules used in `/validate-username`.  |
 | email     | string | Yes      | Valid email of the user to associate with the website.            |
+| business_name     | string | Yes      | The business name to associate with the website.          |
 | cdn_domain| string | No       | Cdn domain to use in the script.                                  |
 
 ### Headers
@@ -96,7 +98,6 @@ Creates a new Firebase Auth user (if necessary) and deploys a website with the p
 ```
 {
   "success": true,
-  "userId": "UqQ23voRS9PJDTstehv9xYbHQlX2",
   "username": "testing123",
   "siteUrl": "https://testing123.pop.site"
 }
